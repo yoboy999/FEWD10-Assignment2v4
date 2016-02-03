@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size:cover;
+     max-width: 1000px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+  
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  /*margin: auto;*/
+  height: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    padding-bottom: 30%;
+    text-align: center;
+        
+}
+
+footer {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    max-width:  1000px;
+    margin: 0px;
+}
+
+.testimony{
+    background: url(/FEWD10-Assignment2v4/images/testimonial_bg.jpg);
+    background-size: cover;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    max-width: 1000px;
+    padding: 20 px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.yellow{
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*Button*/
+/*#SignUp {    
+    width:100px; 
+    margin: 0 auto;  
+    text-align: center;
+}*/
+
+
+.yellow button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/*Headings on header section*/
+h1{
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: left;
+    padding: 20px;
+
+}
+h2{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding: 0px;
+}
+/*Headings on header section End*/
+
+/*Benefits section*/
+
+.Benefits {
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    margin: 0 %;
+}
+h3{
+    font-weight:600;
+    font-size: 20px;
+    margin: 0px;
+}
